@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C33491A1BD243F3006DA2DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3349191BD243F3006DA2DB /* main.m */; };
+		3C33491D1BD243F3006DA2DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C33491C1BD243F3006DA2DB /* AppDelegate.m */; };
+		3C3349201BD243F3006DA2DB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C33491F1BD243F3006DA2DB /* FirstViewController.m */; };
+		3C3349231BD243F3006DA2DB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3349221BD243F3006DA2DB /* SecondViewController.m */; };
+		3C3349261BD243F3006DA2DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3349241BD243F3006DA2DB /* Main.storyboard */; };
+		3C3349281BD243F3006DA2DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3349271BD243F3006DA2DB /* Images.xcassets */; };
+		3C33492B1BD243F3006DA2DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3349291BD243F3006DA2DB /* LaunchScreen.xib */; };
+		3C3349371BD243F3006DA2DB /* SmartLockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3349361BD243F3006DA2DB /* SmartLockerTests.m */; };
+		3C3349411BD24F28006DA2DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3349401BD24F28006DA2DB /* Foundation.framework */; };
+		3C3349431BD24F2D006DA2DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3349421BD24F2D006DA2DB /* UIKit.framework */; };
+		3C3349451BD24F33006DA2DB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3349441BD24F33006DA2DB /* MediaPlayer.framework */; };
+		3C6BDD5D1BD2EA4100E45EB0 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD5C1BD2EA4100E45EB0 /* box.png */; };
+		3C6BDD5F1BD2EABA00E45EB0 /* boxsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD5E1BD2EABA00E45EB0 /* boxsmall.png */; };
+		3C6BDD611BD2EEAE00E45EB0 /* logo1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD601BD2EEAE00E45EB0 /* logo1.svg */; };
+		3C6BDD631BD2EF4C00E45EB0 /* ParcelBoxWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD621BD2EF4C00E45EB0 /* ParcelBoxWhite.png */; };
+		3C6BDD651BD2F08E00E45EB0 /* ParcelBoxOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD641BD2F08E00E45EB0 /* ParcelBoxOrange.png */; };
+		3C6BDD671BD2F10C00E45EB0 /* woodhorizontal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD661BD2F10C00E45EB0 /* woodhorizontal.jpg */; };
+		3C6BDD691BD2F2A900E45EB0 /* ParcelBoxOrangeWithWhiteFill.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD681BD2F2A900E45EB0 /* ParcelBoxOrangeWithWhiteFill.png */; };
+		3C6BDD6C1BD2F96900E45EB0 /* leftbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD6A1BD2F96900E45EB0 /* leftbutton.png */; };
+		3C6BDD6D1BD2F96900E45EB0 /* rightbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD6B1BD2F96900E45EB0 /* rightbutton.png */; };
+		3C6BDD701BD2FC3700E45EB0 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD6E1BD2FC3700E45EB0 /* lock.png */; };
+		3C6BDD711BD2FC3700E45EB0 /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD6F1BD2FC3700E45EB0 /* unlock.png */; };
+		3C6BDD731BD3017B00E45EB0 /* ParcelBoxOrangewithwords.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD721BD3017B00E45EB0 /* ParcelBoxOrangewithwords.png */; };
+		3C6BDD791BD3054700E45EB0 /* DeliveryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6BDD781BD3054700E45EB0 /* DeliveryTableViewCell.m */; };
+		3C6BDD7C1BD3079C00E45EB0 /* acknowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD7A1BD3079C00E45EB0 /* acknowledge.png */; };
+		3C6BDD7D1BD3079C00E45EB0 /* delivered.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD7B1BD3079C00E45EB0 /* delivered.png */; };
+		3C6BDD801BD307E700E45EB0 /* acknowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD7E1BD307E700E45EB0 /* acknowledge.png */; };
+		3C6BDD811BD307E700E45EB0 /* delivered.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD7F1BD307E700E45EB0 /* delivered.png */; };
+		3C6BDD841BD30BAA00E45EB0 /* ack.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD821BD30BAA00E45EB0 /* ack.png */; };
+		3C6BDD851BD30BAA00E45EB0 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD831BD30BAA00E45EB0 /* cancel.png */; };
+		3C6BDD871BD30D4A00E45EB0 /* delivery.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD861BD30D4A00E45EB0 /* delivery.png */; };
+		3C6BDD891BD30F4300E45EB0 /* delivery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6BDD881BD30F4300E45EB0 /* delivery.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C3349311BD243F3006DA2DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C33490C1BD243F3006DA2DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C3349131BD243F3006DA2DB;
+			remoteInfo = SmartLocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C3349141BD243F3006DA2DB /* SmartLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3349181BD243F3006DA2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3349191BD243F3006DA2DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C33491B1BD243F3006DA2DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C33491C1BD243F3006DA2DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C33491E1BD243F3006DA2DB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3C33491F1BD243F3006DA2DB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3C3349211BD243F3006DA2DB /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3C3349221BD243F3006DA2DB /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3C3349251BD243F3006DA2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C3349271BD243F3006DA2DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C33492A1BD243F3006DA2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C3349301BD243F3006DA2DB /* SmartLockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartLockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3349351BD243F3006DA2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3349361BD243F3006DA2DB /* SmartLockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartLockerTests.m; sourceTree = "<group>"; };
+		3C3349401BD24F28006DA2DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C3349421BD24F2D006DA2DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C3349441BD24F33006DA2DB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3C6BDD5C1BD2EA4100E45EB0 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		3C6BDD5E1BD2EABA00E45EB0 /* boxsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxsmall.png; sourceTree = "<group>"; };
+		3C6BDD601BD2EEAE00E45EB0 /* logo1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = logo1.svg; sourceTree = "<group>"; };
+		3C6BDD621BD2EF4C00E45EB0 /* ParcelBoxWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParcelBoxWhite.png; sourceTree = "<group>"; };
+		3C6BDD641BD2F08E00E45EB0 /* ParcelBoxOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParcelBoxOrange.png; sourceTree = "<group>"; };
+		3C6BDD661BD2F10C00E45EB0 /* woodhorizontal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodhorizontal.jpg; sourceTree = "<group>"; };
+		3C6BDD681BD2F2A900E45EB0 /* ParcelBoxOrangeWithWhiteFill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParcelBoxOrangeWithWhiteFill.png; sourceTree = "<group>"; };
+		3C6BDD6A1BD2F96900E45EB0 /* leftbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftbutton.png; sourceTree = "<group>"; };
+		3C6BDD6B1BD2F96900E45EB0 /* rightbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightbutton.png; sourceTree = "<group>"; };
+		3C6BDD6E1BD2FC3700E45EB0 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		3C6BDD6F1BD2FC3700E45EB0 /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
+		3C6BDD721BD3017B00E45EB0 /* ParcelBoxOrangewithwords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParcelBoxOrangewithwords.png; sourceTree = "<group>"; };
+		3C6BDD771BD3054700E45EB0 /* DeliveryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryTableViewCell.h; sourceTree = "<group>"; };
+		3C6BDD781BD3054700E45EB0 /* DeliveryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryTableViewCell.m; sourceTree = "<group>"; };
+		3C6BDD7A1BD3079C00E45EB0 /* acknowledge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acknowledge.png; sourceTree = "<group>"; };
+		3C6BDD7B1BD3079C00E45EB0 /* delivered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delivered.png; sourceTree = "<group>"; };
+		3C6BDD7E1BD307E700E45EB0 /* acknowledge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acknowledge.png; sourceTree = "<group>"; };
+		3C6BDD7F1BD307E700E45EB0 /* delivered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delivered.png; sourceTree = "<group>"; };
+		3C6BDD821BD30BAA00E45EB0 /* ack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ack.png; sourceTree = "<group>"; };
+		3C6BDD831BD30BAA00E45EB0 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		3C6BDD861BD30D4A00E45EB0 /* delivery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delivery.png; sourceTree = "<group>"; };
+		3C6BDD881BD30F4300E45EB0 /* delivery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = delivery.jpg; sourceTree = "<group>"; };
+		7A4A7E1B7AFFE285E1DC617C /* libPods-SmartLocker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartLocker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C3349111BD243F3006DA2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3349451BD24F33006DA2DB /* MediaPlayer.framework in Frameworks */,
+				3C3349431BD24F2D006DA2DB /* UIKit.framework in Frameworks */,
+				3C3349411BD24F28006DA2DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C33492D1BD243F3006DA2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37FF6EE10F47B8559988D65D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A4A7E1B7AFFE285E1DC617C /* libPods-SmartLocker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C33490B1BD243F3006DA2DB = {
+			isa = PBXGroup;
+			children = (
+				3C3349441BD24F33006DA2DB /* MediaPlayer.framework */,
+				3C3349421BD24F2D006DA2DB /* UIKit.framework */,
+				3C3349401BD24F28006DA2DB /* Foundation.framework */,
+				3C3349161BD243F3006DA2DB /* SmartLocker */,
+				3C3349331BD243F3006DA2DB /* SmartLockerTests */,
+				3C3349151BD243F3006DA2DB /* Products */,
+				37FF6EE10F47B8559988D65D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C3349151BD243F3006DA2DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C3349141BD243F3006DA2DB /* SmartLocker.app */,
+				3C3349301BD243F3006DA2DB /* SmartLockerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C3349161BD243F3006DA2DB /* SmartLocker */ = {
+			isa = PBXGroup;
+			children = (
+				3C33491B1BD243F3006DA2DB /* AppDelegate.h */,
+				3C33491C1BD243F3006DA2DB /* AppDelegate.m */,
+				3C33491E1BD243F3006DA2DB /* FirstViewController.h */,
+				3C33491F1BD243F3006DA2DB /* FirstViewController.m */,
+				3C3349211BD243F3006DA2DB /* SecondViewController.h */,
+				3C3349221BD243F3006DA2DB /* SecondViewController.m */,
+				3C6BDD771BD3054700E45EB0 /* DeliveryTableViewCell.h */,
+				3C6BDD781BD3054700E45EB0 /* DeliveryTableViewCell.m */,
+				3C3349241BD243F3006DA2DB /* Main.storyboard */,
+				3C3349271BD243F3006DA2DB /* Images.xcassets */,
+				3C3349291BD243F3006DA2DB /* LaunchScreen.xib */,
+				3C3349171BD243F3006DA2DB /* Supporting Files */,
+			);
+			path = SmartLocker;
+			sourceTree = "<group>";
+		};
+		3C3349171BD243F3006DA2DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C6BDD5E1BD2EABA00E45EB0 /* boxsmall.png */,
+				3C6BDD6E1BD2FC3700E45EB0 /* lock.png */,
+				3C6BDD7E1BD307E700E45EB0 /* acknowledge.png */,
+				3C6BDD861BD30D4A00E45EB0 /* delivery.png */,
+				3C6BDD7F1BD307E700E45EB0 /* delivered.png */,
+				3C6BDD6F1BD2FC3700E45EB0 /* unlock.png */,
+				3C6BDD661BD2F10C00E45EB0 /* woodhorizontal.jpg */,
+				3C6BDD721BD3017B00E45EB0 /* ParcelBoxOrangewithwords.png */,
+				3C6BDD881BD30F4300E45EB0 /* delivery.jpg */,
+				3C6BDD621BD2EF4C00E45EB0 /* ParcelBoxWhite.png */,
+				3C6BDD7A1BD3079C00E45EB0 /* acknowledge.png */,
+				3C6BDD7B1BD3079C00E45EB0 /* delivered.png */,
+				3C6BDD681BD2F2A900E45EB0 /* ParcelBoxOrangeWithWhiteFill.png */,
+				3C6BDD641BD2F08E00E45EB0 /* ParcelBoxOrange.png */,
+				3C6BDD821BD30BAA00E45EB0 /* ack.png */,
+				3C6BDD831BD30BAA00E45EB0 /* cancel.png */,
+				3C6BDD6A1BD2F96900E45EB0 /* leftbutton.png */,
+				3C6BDD6B1BD2F96900E45EB0 /* rightbutton.png */,
+				3C6BDD5C1BD2EA4100E45EB0 /* box.png */,
+				3C6BDD601BD2EEAE00E45EB0 /* logo1.svg */,
+				3C3349181BD243F3006DA2DB /* Info.plist */,
+				3C3349191BD243F3006DA2DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C3349331BD243F3006DA2DB /* SmartLockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C3349361BD243F3006DA2DB /* SmartLockerTests.m */,
+				3C3349341BD243F3006DA2DB /* Supporting Files */,
+			);
+			path = SmartLockerTests;
+			sourceTree = "<group>";
+		};
+		3C3349341BD243F3006DA2DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C3349351BD243F3006DA2DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C3349131BD243F3006DA2DB /* SmartLocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C33493A1BD243F3006DA2DB /* Build configuration list for PBXNativeTarget "SmartLocker" */;
+			buildPhases = (
+				3C3349101BD243F3006DA2DB /* Sources */,
+				3C3349111BD243F3006DA2DB /* Frameworks */,
+				3C3349121BD243F3006DA2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartLocker;
+			productName = SmartLocker;
+			productReference = 3C3349141BD243F3006DA2DB /* SmartLocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C33492F1BD243F3006DA2DB /* SmartLockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C33493D1BD243F3006DA2DB /* Build configuration list for PBXNativeTarget "SmartLockerTests" */;
+			buildPhases = (
+				3C33492C1BD243F3006DA2DB /* Sources */,
+				3C33492D1BD243F3006DA2DB /* Frameworks */,
+				3C33492E1BD243F3006DA2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3349321BD243F3006DA2DB /* PBXTargetDependency */,
+			);
+			name = SmartLockerTests;
+			productName = SmartLockerTests;
+			productReference = 3C3349301BD243F3006DA2DB /* SmartLockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C33490C1BD243F3006DA2DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ian Chen";
+				TargetAttributes = {
+					3C3349131BD243F3006DA2DB = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = W7BDRVLLQN;
+					};
+					3C33492F1BD243F3006DA2DB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3C3349131BD243F3006DA2DB;
+					};
+				};
+			};
+			buildConfigurationList = 3C33490F1BD243F3006DA2DB /* Build configuration list for PBXProject "SmartLocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C33490B1BD243F3006DA2DB;
+			productRefGroup = 3C3349151BD243F3006DA2DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C3349131BD243F3006DA2DB /* SmartLocker */,
+				3C33492F1BD243F3006DA2DB /* SmartLockerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C3349121BD243F3006DA2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6BDD671BD2F10C00E45EB0 /* woodhorizontal.jpg in Resources */,
+				3C6BDD701BD2FC3700E45EB0 /* lock.png in Resources */,
+				3C6BDD6C1BD2F96900E45EB0 /* leftbutton.png in Resources */,
+				3C3349261BD243F3006DA2DB /* Main.storyboard in Resources */,
+				3C6BDD691BD2F2A900E45EB0 /* ParcelBoxOrangeWithWhiteFill.png in Resources */,
+				3C6BDD711BD2FC3700E45EB0 /* unlock.png in Resources */,
+				3C6BDD7C1BD3079C00E45EB0 /* acknowledge.png in Resources */,
+				3C6BDD6D1BD2F96900E45EB0 /* rightbutton.png in Resources */,
+				3C6BDD611BD2EEAE00E45EB0 /* logo1.svg in Resources */,
+				3C6BDD851BD30BAA00E45EB0 /* cancel.png in Resources */,
+				3C6BDD651BD2F08E00E45EB0 /* ParcelBoxOrange.png in Resources */,
+				3C6BDD7D1BD3079C00E45EB0 /* delivered.png in Resources */,
+				3C33492B1BD243F3006DA2DB /* LaunchScreen.xib in Resources */,
+				3C6BDD731BD3017B00E45EB0 /* ParcelBoxOrangewithwords.png in Resources */,
+				3C6BDD841BD30BAA00E45EB0 /* ack.png in Resources */,
+				3C3349281BD243F3006DA2DB /* Images.xcassets in Resources */,
+				3C6BDD811BD307E700E45EB0 /* delivered.png in Resources */,
+				3C6BDD891BD30F4300E45EB0 /* delivery.jpg in Resources */,
+				3C6BDD871BD30D4A00E45EB0 /* delivery.png in Resources */,
+				3C6BDD801BD307E700E45EB0 /* acknowledge.png in Resources */,
+				3C6BDD631BD2EF4C00E45EB0 /* ParcelBoxWhite.png in Resources */,
+				3C6BDD5F1BD2EABA00E45EB0 /* boxsmall.png in Resources */,
+				3C6BDD5D1BD2EA4100E45EB0 /* box.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C33492E1BD243F3006DA2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C3349101BD243F3006DA2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6BDD791BD3054700E45EB0 /* DeliveryTableViewCell.m in Sources */,
+				3C3349231BD243F3006DA2DB /* SecondViewController.m in Sources */,
+				3C33491D1BD243F3006DA2DB /* AppDelegate.m in Sources */,
+				3C3349201BD243F3006DA2DB /* FirstViewController.m in Sources */,
+				3C33491A1BD243F3006DA2DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C33492C1BD243F3006DA2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3349371BD243F3006DA2DB /* SmartLockerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C3349321BD243F3006DA2DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C3349131BD243F3006DA2DB /* SmartLocker */;
+			targetProxy = 3C3349311BD243F3006DA2DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C3349241BD243F3006DA2DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C3349251BD243F3006DA2DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C3349291BD243F3006DA2DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C33492A1BD243F3006DA2DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C3349381BD243F3006DA2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C3349391BD243F3006DA2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C33493B1BD243F3006DA2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmartLocker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C33493C1BD243F3006DA2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmartLocker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C33493E1BD243F3006DA2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartLockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartLocker.app/SmartLocker";
+			};
+			name = Debug;
+		};
+		3C33493F1BD243F3006DA2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartLockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartLocker.app/SmartLocker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C33490F1BD243F3006DA2DB /* Build configuration list for PBXProject "SmartLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3349381BD243F3006DA2DB /* Debug */,
+				3C3349391BD243F3006DA2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C33493A1BD243F3006DA2DB /* Build configuration list for PBXNativeTarget "SmartLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C33493B1BD243F3006DA2DB /* Debug */,
+				3C33493C1BD243F3006DA2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C33493D1BD243F3006DA2DB /* Build configuration list for PBXNativeTarget "SmartLockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C33493E1BD243F3006DA2DB /* Debug */,
+				3C33493F1BD243F3006DA2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C33490C1BD243F3006DA2DB /* Project object */;
+}
